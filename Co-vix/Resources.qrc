@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Co-vix Images/Splashscreen.png</file>
+        <file>Co-vix Images/Co-vix logo.png</file>
+        <file>Co-vix Images/Co-vix logo header.png</file>
+        <file>Co-vix Images/art01.png</file>
+        <file>Co-vix Images/HOME BTN.png</file>
+        <file>Co-vix Images/ABOUT US  BTN.png</file>
+        <file>Co-vix Images/LOG IN BTN.png</file>
+        <file>Co-vix Images/SEARCH BTN.png</file>
+        <file>Co-vix Images/art2.png</file>
+        <file>Co-vix Images/CHECK VACCINE  STATUS BTN.png</file>
+        <file>Co-vix Images/L&amp;R BTN.png</file>
+        <file>Co-vix Images/SIGN IN header.png</file>
+        <file>Co-vix Images/SIGN IN Frame.png</file>
+        <file>Co-vix Images/SIGN IN 02 BTN.png</file>
+        <file>Co-vix Images/Sign Up With Us Now BTN.png</file>
+        <file>Co-vix Images/BACK Btn.png</file>
+        <file>Co-vix Images/CHECK VACCINE  STATUS LBL.png</file>
+        <file>Co-vix Images/serchicon.png</file>
+        <file>Co-vix Images/CHECK btn.png</file>
+        <file>Co-vix Images/CHECK CLEAR btn.png</file>
+        <file>Co-vix Images/LOG OUT BTN.png</file>
+        <file>Co-vix Images/HOMEPAGE.png</file>
+        <file>Co-vix Images/New  Entry.png</file>
+        <file>Co-vix Images/Patient  observation data.png</file>
+        <file>Co-vix Images/search  patient.png</file>
+        <file>Co-vix Images/Update Vaccine Status.png</file>
+        <file>Co-vix Images/ADDART.png</file>
+        <file>Co-vix Images/UPDATEVACCINESTATUSART.png</file>
+        <file>Co-vix Images/UPDATE btn.png</file>
+        <file>Co-vix Images/CONFIRM btn.png</file>
+        <file>Co-vix Images/SEARCH  btn.png</file>
+        <file>Co-vix Images/SAVE  btn.png</file>
+        <file>Co-vix Images/REFRESH btn.png</file>
+        <file>Co-vix Images/Sorry art.png</file>
+        <file>Co-vix Images/RE-TRY btn.png</file>
+        <file>Co-vix Images/serart.png</file>
+        <file>Co-vix Images/aboutusart.png</file>
+    </qresource>
+</RCC>

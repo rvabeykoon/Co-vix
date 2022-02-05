@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Addscreen</class>
+ <widget class="QDialog" name="Addscreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Co-vix</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>750</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/Co-vix Images/ADDART.png&quot;);
+background-repeat: no-repeat;
+border-style: none;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>100</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>01. Name : </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>160</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>02. NIC :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="namelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>100</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="niclineEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>160</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter NIC</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_4">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>210</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>04. Details Of The First Dose  :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>4.1 Date :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_6">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>4.2 Type :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="type1lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>310</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Vaccine Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_10">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>360</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>05. Details Of The Second Dose  :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_11">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>5.1 Date :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="type2lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>460</y>
+     <width>491</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Vaccine Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_12">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>460</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>5.2 Type :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="type3lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>610</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Vaccine Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_13">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>510</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>06. Details Of The Third Dose  :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_14">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>610</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>6.2 Type :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_15">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>560</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>6.1 Date :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_7">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>30</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 25px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string> ADD NEW RECORD </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+background-image: url(&quot;:/Co-vix Images/BACK Btn.png&quot;);
+border: 0px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>260</y>
+     <width>171</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>410</y>
+     <width>171</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>560</y>
+     <width>171</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_3">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 16px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string>03. AGE :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="agelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>160</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Age</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>50</y>
+     <width>741</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  border: 2px solid #0A5894;
+  border-radius: 25px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>620</y>
+      <width>102</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(&quot;:/Co-vix Images/SAVE  btn.png&quot;);
+background-repeat: no-repeat;
+border-style: none;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame_2</zorder>
+  <zorder>frame</zorder>
+  <zorder>nameLbl</zorder>
+  <zorder>nameLbl_2</zorder>
+  <zorder>namelineEdit</zorder>
+  <zorder>niclineEdit</zorder>
+  <zorder>nameLbl_4</zorder>
+  <zorder>nameLbl_5</zorder>
+  <zorder>nameLbl_6</zorder>
+  <zorder>type1lineEdit</zorder>
+  <zorder>nameLbl_10</zorder>
+  <zorder>nameLbl_11</zorder>
+  <zorder>type2lineEdit</zorder>
+  <zorder>nameLbl_12</zorder>
+  <zorder>type3lineEdit</zorder>
+  <zorder>nameLbl_13</zorder>
+  <zorder>nameLbl_14</zorder>
+  <zorder>nameLbl_15</zorder>
+  <zorder>nameLbl_7</zorder>
+  <zorder>backButton</zorder>
+  <zorder>dateEdit</zorder>
+  <zorder>dateEdit_2</zorder>
+  <zorder>dateEdit_3</zorder>
+  <zorder>nameLbl_3</zorder>
+  <zorder>agelineEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Aboutus</class>
+ <widget class="QDialog" name="Aboutus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Co-vix</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>1100</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/Co-vix Images/aboutusart.png&quot;);
+background-repeat: no-repeat;
+border-style: none;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url(&quot;:/Co-vix Images/BACK Btn.png&quot;);
+border: 0px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

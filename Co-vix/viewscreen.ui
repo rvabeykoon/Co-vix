@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Viewscreen</class>
+ <widget class="QDialog" name="Viewscreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Co-vix</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>110</y>
+     <width>102</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/Co-vix Images/SEARCH  btn.png&quot;);
+background-repeat: no-repeat;
+border-style: none;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>130</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+background-image: url(&quot;:/Co-vix Images/BACK Btn.png&quot;);
+border: 0px solid #555555;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>20</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;:/Co-vix Images/Co-vix logo header.png&quot;);
+ background-repeat: no-repeat;
+border-style: none;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>601</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+border-bottom: 2px solid #F47723;
+color: Black;
+font-size: 14px;
+letter-spacing: 4px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLbl_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 25px;
+letter-spacing: 4px;</string>
+   </property>
+   <property name="text">
+    <string> VIEW ALL DETAILS </string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>1141</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: Black;
+font-size: 12px;
+letter-spacing: 1px;
+ </string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>60</y>
+     <width>911</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  border: 2px solid #0A5894;
+  border-radius: 25px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>410</y>
+     <width>671</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #FFB344;
+border-radius: 25px;
+ </string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="searchButton_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>280</y>
+      <width>102</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(&quot;:/Co-vix Images/REFRESH btn.png&quot;);
+background-repeat: no-repeat;
+border-style: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame_3</zorder>
+  <zorder>frame_2</zorder>
+  <zorder>searchButton</zorder>
+  <zorder>backButton</zorder>
+  <zorder>frame</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>nameLbl_7</zorder>
+  <zorder>tableView</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
